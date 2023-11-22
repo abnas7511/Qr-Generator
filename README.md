@@ -6,6 +6,8 @@ This Node.js application allows users to generate QR codes for a given URL. The 
 
 Before running the application, make sure you have Node.js installed on your machine. You can download and install Node.js from [https://nodejs.org/](https://nodejs.org/).
 
+Apologies for the oversight. You're absolutely correct. Let's include the steps for initializing npm in the directory.
+
 ## Installation
 
 1. Clone the repository to your local machine:
@@ -20,11 +22,19 @@ Before running the application, make sure you have Node.js installed on your mac
    cd <project-directory>
    ```
 
-3. Install the required npm packages:
+3. Initialize npm in the project directory:
+
+   ```bash
+   npm init -y
+   ```
+
+4. Install the required npm packages:
 
    ```bash
    npm install
    ```
+
+This will create a `package.json` file in your project directory and install the necessary dependencies. 
 
 ## Running the Application
 
